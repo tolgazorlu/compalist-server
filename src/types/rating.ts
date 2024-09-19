@@ -1,0 +1,23 @@
+export type Rating = {
+    _id: string;
+    company_name: string;
+    project_name?: string;
+    project_cost?: string;
+    project_status: string;
+    project_desc?: string;
+    which_service?: string;
+    rating_title?: string;
+    rating_detail?: string;
+    service_quality?: number;
+    time_management?: number;
+    company_communication?: number;
+    general_rating?: number;
+    name: string;
+    email: string;
+    your_company_name?: string;
+    company_position?: string;
+    company_location?: string;
+    website?: string;
+    linkedin?: string;
+    owner: string;
+};
