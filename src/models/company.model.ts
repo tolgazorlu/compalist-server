@@ -72,6 +72,24 @@ export class Company {
     @prop({ required: false, default: 0 })
     public website_visits?: number;
 
+    @prop()
+    public social_instagram_link?: string;
+
+    @prop()
+    public social_linkedin_link?: string;
+
+    @prop()
+    public social_twitter_link?: string;
+
+    @prop()
+    public social_facebook_link?: string;
+
+    @prop()
+    public social_youtube_link?: string;
+
+    @prop()
+    public big_partners?: number;
+
     @prop({
         ref: () => Rating,
         type: [mongoose.Schema.Types.ObjectId],

@@ -23,4 +23,10 @@ export type Company = {
     hourly_price?: string;
     ratings: Ref<Rating>[] | string;
     owner?: string;
+    social_instagram_link?: string;
+    social_linkedin_link?: string;
+    social_twitter_link?: string;
+    social_facebook_link?: string;
+    social_youtube_link?: string;
+    big_partners?: number;
 };

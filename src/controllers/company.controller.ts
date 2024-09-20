@@ -91,6 +91,18 @@ exports.UpdateCompany = async (req: Request, res: Response) => {
                 req.body.company_describe || company.company_describe;
             company.visits = company.visits;
             company.logo = req.body.logo || company.logo;
+            company.social_instagram_link =
+                req.body.social_instagram_link || company.social_instagram_link;
+            company.social_linkedin_link =
+                req.body.social_linkedin_link || company.social_linkedin_link;
+            company.social_twitter_link =
+                req.body.social_twitter_link || company.social_twitter_link;
+            company.social_facebook_link =
+                req.body.social_facebook_link || company.social_facebook_link;
+            company.social_youtube_link =
+                req.body.social_youtube_link || company.social_youtube_link;
+            company.big_partners =
+                req.body.big_partners || company.big_partners;
             company.slug = company.slug;
             company.isVerified = false;
             company.isListed = false;
